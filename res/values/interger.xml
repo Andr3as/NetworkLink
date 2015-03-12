@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="code_view" type="integer">1</item>
+    <item name="code_new" type="integer">2</item>
+    <item name="code_settings" type="integer">3</item>
+    <item name="code_about" type="integer">4</item>
+    <item name="code_count" type="integer">5</item>
+</resources>

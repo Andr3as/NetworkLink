@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp">
+    
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+	
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/new_link"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp"/>
+    
+    <View
+		android:id="@id/settings_divider"
+		android:layout_width="fill_parent"
+		android:layout_height="2dp"
+		android:background="@color/key_color_pressed" 
+		android:layout_marginTop="7dp"
+		android:layout_marginBottom="7dp"
+		android:layout_below="@+id/textView1"/>
+
+    <TextView
+    	android:id="@+id/textView2"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/new_name"
+    	android:textAppearance="?android:attr/textAppearanceMedium"
+    	android:layout_below="@id/settings_divider"/>
+    
+    <EditText
+    	android:id="@+id/editText1"
+    	android:hint="@string/new_name"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@id/textView2"
+    	android:ems="10">
+    	
+    	<requestFocus />
+    </EditText>
+    
+    <TextView
+    	android:id="@+id/textView5"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@id/editText1"
+    	android:text="@string/network"
+    	android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+    	android:id="@+id/spinner1"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@id/textView5"/>
+
+    <TextView
+    	android:id="@+id/textView3"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/spinner1"
+    	android:text="@string/new_network_link"
+    	android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <EditText
+    	android:id="@+id/editText2"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:inputType="textUri"
+    	android:hint="@string/new_network_link"
+    	android:ems="10"
+    	android:layout_below="@id/textView3"/>
+
+    <TextView
+    	android:id="@+id/textView4"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/editText2"
+    	android:text="@string/new_other_link"
+    	android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+    	android:id="@+id/editText3"
+    	android:ems="10"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/textView4"
+    	android:hint="@string/new_other_link"
+    	android:inputType="textUri"/>
+
+    </RelativeLayout>
+    
+</ScrollView>

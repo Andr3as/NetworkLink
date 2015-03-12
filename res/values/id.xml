@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- ID Ressources -->
+    <item type="id" name="settings_twoPanes_category"></item>
+    <item type="id" name="settings_twoPanes_area"></item>
+    <item type="id" name="settings_onePane"></item>
+    <item type="id" name="onePane"></item>
+    
+    <item type="id" name="settings_list"></item>
+    <item type="id" name="count_text"></item>
+    <item type="id" name="count_image"></item>
+    
+    <item type="id" name="layout_relative"></item>
+    <item type="id" name="layout_relative1"></item>
+    <item type="id" name="textview8"></item>
+    
+    <!-- Menu ids -->
+    <item type="id" name="menu_new_link"></item>
+    <item type="id" name="menu_delete_link"></item>
+    <item type="id" name="menu_settings"></item>
+    <item type="id" name="menu_save"></item>
+    <item type="id" name="menu_open"></item>
+    <item type="id" name="menu_edit"></item>
+    <item type="id" name="menu_share"></item>
+    <item type="id" name="menu_discard"></item>
+    
+    <!-- Context Menu ids -->
+    <item type="id" name="context_export"></item>
+    <item type="id" name="context_delete"></item>
+    <item type="id" name="context_select_all"></item>
+    
+    <!-- Style ids -->
+    <item type="id" name="settings_divider"></item>
+    <item type="id" name="fragment_divider"></item>
+    
+    <item type="id" name="my_device_divider"></item>
+    <item type="id" name="available_devices_divider"></item>
+    
+    <!-- Tag ids -->
+    <item type="id" name="tag_position"></item>
+    
+</resources>

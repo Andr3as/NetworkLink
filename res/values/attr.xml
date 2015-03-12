@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style type="style"
+		name="textAppearanceTitle"
+		parent="@android:style/TextAppearance.Large">
+		<item name="android:textSize">27sp</item>
+	</style>
+</resources>

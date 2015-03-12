@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- String identifiers -->
+    <!-- Intent extras -->
+    <string name="settings_extra">settings_extra</string>
+    
+    <!-- Preference Keys -->
+    <string name="key_device_name">key_device_name</string>
+    <string name="key_language">key_language</string>
+    <string name="key_delete_settings">key_delete_settings</string>
+    
+    <!-- Unique strings -->
+    <!-- General -->
+    <string-array name="setting_languages_values">
+        <item>en</item>
+        <item>de</item>
+    </string-array>
+    
+    
+    <!-- About -->
+    <string name="author_name">Andr3as &lt;Andrano.de&gt;</string>
+    <string name="author_website">http://andrano.de</string>
+</resources>

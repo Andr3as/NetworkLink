@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="keyCode_done">-1</item>
+    <item type="integer" name="keyCode_settings">-2</item>
+    <item type="integer" name="keyCode_connect">-3</item>
+    <item type="integer" name="keyCode_delete">-4</item>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="version">Version</string>
+	
+    <string name="hello">Hallo Welt, MainActivity!</string>
+    <string name="app_name">NetworkLink</string>
+	<string name="settings">Einstellungen</string>
+	
+	<!-- Settings titles -->
+	<string name="new_link">Neuer Link</string>
+	
+	<string name="author">Autor</string>
+	<string name="more">Mehr</string>
+	
+	<string name="network">Netzwerk</string>
+	
+	<!-- Settings -->
+	<string name="licenses">Lizenzen</string>
+	<string name="open_source">Open-Source-Lizenzen</string>
+	<string name="image_licenses">Bildlizenzen</string>
+	
+	<!-- New Link -->
+	<string name="new_name">Titel</string>
+	<string name="new_network_link">Netzwerk Link</string>
+	<string name="new_other_link">Standard Link</string>
+	<string name="new_activate_msg">WLAN muss aktiviert sein, um gespeicherte Netzwerke auszuführen.</string>
+	<string name="new_activate_btn">Aktivieren</string>
+	
+	<!-- Menu -->
+	<string name="menu_new">Neu</string>
+	<string name="menu_delete">Löschen</string>
+	<string name="menu_settings">Einstellungen</string>
+	<string name="menu_save">Speichern</string>
+	<string name="menu_open">Öffnen</string>
+	<string name="menu_edit">Ändern</string>
+	<string name="menu_share">Teilen</string>
+	<string name="menu_discard">Verwerfen</string>
+	
+	<!-- Context Menu -->
+	<string name="context_export">Exportieren</string>
+	
+	<!-- Settings -->
+	<string name="settings_import">Importieren</string>
+	
+	<!-- General -->
+	<string name="saved">Gespeichert</string>
+	<string name="no_links_view">Nichts vorhanden. Erstelle einen!</string>
+	<string name="imported">Datei importiert</string>
+	
+	<!-- Error messages -->
+	<string name="error_settings_extra">Fehlende Informationenen</string>
+	<string name="error_failed_new_entry">Speichern fehlgeschlagen</string>
+	<string name="error_nothing_changed">Keine Änderungen</string>
+	<string name="error">Aktion fehlgeschlagen</string>
+	<string name="error_json">Dateiinhalt fehlerhaft</string>
+</resources>

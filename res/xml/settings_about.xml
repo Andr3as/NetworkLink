@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<PreferenceCategory 
+		android:title="@string/settings">
+		<Preference 
+			android:title="@string/settings_import"
+			android:key="@string/key_import"
+			android:icon="@drawable/ic_import"/>
+	</PreferenceCategory>
+	
+	<PreferenceCategory 
+		android:title="@string/version">
+		<Preference 
+			android:title="@string/version_number"/>
+	</PreferenceCategory>
+	
+	<PreferenceCategory 
+	    android:title="@string/author">
+	    <Preference android:title="@string/author_name">
+		    <intent android:action="android.intent.action.VIEW"
+		            android:data="https://andrano.de"/>
+		</Preference>
+	</PreferenceCategory>
+	<PreferenceCategory 
+		android:title="@string/licenses">
+		<PreferenceScreen 
+			android:title="@string/open_source">
+			<PreferenceCategory
+		        android:title="android-support-v4.jar">
+				<Preference android:title="Apache License">
+				    <intent android:action="android.intent.action.VIEW"
+				            android:data="https://github.com/android/platform_frameworks_support/blob/master/v4/Android.mk"/>
+				</Preference>
+			</PreferenceCategory>
+			<PreferenceCategory
+				android:title="android-support-v7-appcompat">
+				<Preference android:title="Apache License">
+				    <intent android:action="android.intent.action.VIEW"
+				            android:data="https://github.com/android/platform_frameworks_support/blob/master/v7/appcompat/Android.mk"/>
+				</Preference>
+			</PreferenceCategory>
+			<PreferenceCategory 
+				android:title="android-support-v4-preferencefragment">
+				<Preference android:title="Apache License">
+				    <intent android:action="android.intent.action.VIEW"
+				            android:data="https://github.com/justinharrison/android-support-v4-preferencefragment/blob/master/LICENSE"/>
+				</Preference>
+			</PreferenceCategory>
+		</PreferenceScreen>
+		<PreferenceScreen 
+			android:title="@string/image_licenses">
+			<PreferenceCategory 
+				android:title="Link metal chain by Freepik from Flaticon">
+				<Preference android:title="Creative commons by 3.0">
+				    <intent android:action="android.intent.action.VIEW"
+				            android:data="http://www.flaticon.com/free-icon/link-metal-chain_29"/>
+				</Preference>
+			</PreferenceCategory>
+			<PreferenceCategory 
+				android:title="World by Designmodo from Flaticon">
+				<Preference android:title="Creative commons by 3.0">
+				    <intent android:action="android.intent.action.VIEW"
+				            android:data="http://www.flaticon.com/free-icon/world_4431"/>
+				</Preference>
+			</PreferenceCategory>
+			<PreferenceCategory 
+				android:title="Networking connections by Sarfraz Shoukat from Flaticon">
+				<Preference android:title="Creative commons by 3.0">
+				    <intent android:action="android.intent.action.VIEW"
+				            android:data="http://www.flaticon.com/free-icon/networking-connections_9075"/>
+				</Preference>
+			</PreferenceCategory>
+			<PreferenceCategory 
+				android:title="Export arrow up by Yannick from Flaticon">
+				<Preference android:title="Creative commons by 3.0">
+				    <intent android:action="android.intent.action.VIEW"
+				            android:data="http://www.flaticon.com/free-icon/export-arrow-up_12527"/>
+				</Preference>
+			</PreferenceCategory>
+		</PreferenceScreen>
+	</PreferenceCategory>
+</PreferenceScreen>

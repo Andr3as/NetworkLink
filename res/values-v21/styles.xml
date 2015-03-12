@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<style name="AppBaseTheme" parent="@android:style/Theme.Material.Light">
+		<item name="android:colorPrimary">@color/lighter_gray</item>
+		<item name="android:colorPrimaryDark">@color/blue</item>
+		<item name="android:navigationBarColor">@color/blue</item>
+	</style>
+	
+</resources>

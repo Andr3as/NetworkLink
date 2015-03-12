@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="main" type="layout">@layout/two_panes</item>
+    <bool name="has_two_panes">true</bool>
+    <integer name="fragment_divider">0</integer>
+</resources>

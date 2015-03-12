@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="sql_create">CREATE TABLE links(
+        id integer primary key autoincrement,
+        title text not null,
+        ssid text,
+        network_link text,
+        default_link text);</string>
+	<string name="sql_drop">DROP TABLE IF EXISTS links</string>
+	<string name="sql_select">SELECT * FROM links ORDER BY id</string>
+	<string name="sql_select_first">SELECT * FROM links ORDER BY ROWID ASC LIMIT 1</string>
+	<string name="sql_table">links</string>
+</resources>

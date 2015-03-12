@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="version">Version</string>
+	<string name="version_number">1.0.1 - Hydrogen</string>
+	
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">NetworkLink</string>
+	<string name="settings">Settings</string>
+	
+	<!-- Settings titles -->
+	<string name="new_link">New Link</string>
+	
+	<string name="author">Author</string>
+	<string name="more">More</string>
+	
+	<string name="network">Network</string>
+	
+	<!-- Settings -->
+	<string name="licenses">Licenses</string>
+	<string name="open_source">Open-source-licenses</string>
+	<string name="image_licenses">Image licenses</string>
+	
+	<!-- New Link -->
+	<string name="new_name">Titel</string>
+	<string name="new_network_link">Network Link</string>
+	<string name="new_other_link">Default Link</string>
+	<string name="new_activate_msg">WLAN must be enabled to list saved networks.</string>
+	<string name="new_activate_btn">Enable</string>
+	
+	<!-- Menu -->
+	<string name="menu_new">New</string>
+	<string name="menu_delete">Delete</string>
+	<string name="menu_settings">Settings</string>
+	<string name="menu_save">Save</string>
+	<string name="menu_open">Open</string>
+	<string name="menu_edit">Edit</string>
+	<string name="menu_share">Share</string>
+	<string name="menu_discard">Discard</string>
+	
+	<!-- Context Menu -->
+	<string name="context_export">Export</string>
+	
+	<!-- Settings -->
+	<string name="settings_import">Import</string>
+	
+	<!-- Image Description -->
+	<string name="icon_link">Link Icon</string>
+	<string name="icon_right">Right Arrow</string>
+	<string name="icon">Icon</string>
+	
+	<!-- General -->
+	<string name="saved">Saved</string>
+	<string name="no_links_view">Nothing available. Create one!</string>
+	<string name="imported">File imported</string>
+	
+	<!-- Error messages -->
+	<string name="error_settings_extra">Missing informations</string>
+	<string name="error_failed_new_entry">Failed to save</string>
+	<string name="error_nothing_changed">No Changes</string>
+	<string name="error">Action failed</string>
+	<string name="error_json">File contents incorrect</string>
+	
+	<!-- Anderes -->
+	<string name="device_name">Nexus</string>
+	<string name="key_id">networklink_id</string>
+	<string name="key_count">networklink_count</string>
+	<string name="key_import">key_import</string>
+</resources>

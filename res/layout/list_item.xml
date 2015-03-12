@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:paddingLeft="10dp">
+	<ImageView
+		android:id="@id/imageView2"
+		android:contentDescription="@string/icon_link"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft = "true"
+		android:layout_centerVertical="true"
+		android:layout_marginRight="5dip"
+		android:clickable="true"
+		android:src="@drawable/ic_link"/>
+    <RelativeLayout
+    	android:id="@id/layout_relative"
+    	android:layout_toRightOf="@id/imageView2"
+		android:layout_toLeftOf="@id/imageView3"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+
+        <TextView
+        	android:id="@id/textView5"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:singleLine="true"
+        	android:text="@string/new_name"
+        	android:textAppearance="?android:attr/textAppearanceLarge"
+        	android:textColor="@android:color/black" />
+
+        <TextView
+        	android:id="@id/textView6"
+        	android:layout_below="@id/textView5"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:singleLine="true"
+        	android:text="@string/network"
+        	android:textAppearance="?android:attr/textAppearanceSmall"
+        	android:textColor="@color/darker_gray"/>
+
+        <TextView
+        	android:id="@id/textView7"
+        	android:layout_below="@id/textView6"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:singleLine="true"
+        	android:text="@string/new_network_link"
+        	android:textAppearance="?android:attr/textAppearanceSmall"
+        	android:textColor="@color/darker_gray"/>
+
+    </RelativeLayout>
+    
+    <ImageView
+    	android:id="@id/imageView3"
+    	android:clickable="true"
+    	android:contentDescription="@string/icon_right"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_centerVertical="true"
+    	android:layout_alignParentRight="true"
+    	android:layout_marginRight="5dip"
+    	android:padding="10dip"
+    	android:src="@drawable/ic_right" />
+</RelativeLayout>
